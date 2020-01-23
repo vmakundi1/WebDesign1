@@ -1,0 +1,58 @@
+
+body {font-family: arial; font-size: 100%   }
+
+header, main, footer {width: 940px;
+						margin: 0px auto;}
+
+nav ol {list-style-type: none;  float: left;  }
+
+nav li { float: left;   }
+
+nav a {text-decoration: none;}
+
+main div {width: 938px;
+		 height: 360px;
+		 line-height: 360px;
+		background-color: #7e7e7e;
+		color: #fff;
+		text-align: center;;
+		border: 1px solid #000;  }
+
+main section section {width: 440px;
+					margin-right: 20px;
+					float: left;  }
+
+a:link {color: #333} /* unvisited link */
+a:visited {color: #333} 
+a:hover {color: #999} /* mouse over link */
+a:active {color: #999} /* selected link */
+
+/* ************ add font styles ******* */
+body {
+	/* this is where we put all the generic font values for the page */
+	font-size: 100%;
+	line-height: 1.5;
+	font-family:'Lato', sans-serif;
+}
+h1 {
+	font-weight: bolder;
+	font-size: 3em;
+	text-shadow: 2px 2px 5px #939393;
+	/* text-shadow: 2px 2px 1px blue; */
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+h3 {
+	font-variant: small-caps;
+	font-size: 2em;
+	letter-spacing: -1px;
+
+}
+
+p:first-letter {
+	font-size: 2em;
+	color: red;
+}
