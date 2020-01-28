@@ -1,0 +1,26 @@
+.relative {
+	position: relative;
+	top: 40px;
+	left: 20px;
+}
+
+.absolute {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.relative-2 {
+	position: relative;
+}
+
+.absolute-2 {
+	position: absolute;
+	right: 0;
+	bottom: -10px;
+}
+.fixed {
+	position: fixed;
+	top: 50%;
+	right: 0;
+}
