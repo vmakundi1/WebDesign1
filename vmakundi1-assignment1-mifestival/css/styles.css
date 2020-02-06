@@ -16,4 +16,6 @@ nav ul button{
     padding: 1rem;
 }
 
-
+.top-main {
+    background: url(img/header-background.jpg) no-repeat center;
+}
