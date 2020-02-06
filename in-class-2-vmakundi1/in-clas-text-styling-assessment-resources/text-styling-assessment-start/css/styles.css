@@ -1,0 +1,67 @@
+body {
+    font-size: 1.125rem;
+}
+@font-face{
+    font-family: 'MyWebFont';
+    src: url('WebFont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+     url('WebFont.woff') format('woff'),
+     url('WebFont.ttf') format('truetype'),
+     url('WebFont.svg#webfont') format('svg');
+}
+
+h1{
+    font-family: 'MyWebFont', Lane - Narrow, sans-serif;
+    text-align: center;
+}
+
+header{
+    margin-top: 6.25rem;
+}
+
+section {
+    margin-top: 6.25rem;
+}
+
+h2::first-letter {
+    font-size: 150%;
+    color: #DB4437;
+  }
+
+h2 {
+    text-transform: uppercase;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+
+}
+
+img{
+    margin-left: 1.6875rem;
+}
+
+body {
+    width: 85.31rem;
+}
+
+.container,
+header,
+h1,
+section,
+footer {
+    width: 75rem;
+}
+
+
+
+a:link {
+    color: blue;
+    text-transform: uppercase;
+  }
+
+a:hover{
+
+    border: 0.0625rem solid;
+    color: #336666;
+}
