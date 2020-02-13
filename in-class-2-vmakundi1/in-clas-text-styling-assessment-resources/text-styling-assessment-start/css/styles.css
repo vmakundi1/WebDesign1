@@ -10,7 +10,6 @@ body {
     url('../font/LaneNarrow.ttf') format('truetype'), 
     url('../font/LaneNarrow.svg') format('svg');
 }
-
 @font-face {
     font-family: 'MyWebFront;
 }

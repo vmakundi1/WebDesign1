@@ -38,6 +38,9 @@ nav ul button{
     width: 1300px;
     margin: 0 auto;
 }
+.fun-image{
+    position: relative;
+}
 .friends,
 .fashion,
 .sculpture,
