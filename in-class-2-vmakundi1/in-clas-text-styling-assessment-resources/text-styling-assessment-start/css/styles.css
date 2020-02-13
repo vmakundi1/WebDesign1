@@ -2,17 +2,21 @@ body {
     font-size: 1.125rem;
 }
 @font-face{
-    font-family: 'MyWebFont';
+    font-family: 'LaneNarrow';
     src: url('WebFont.eot');
-    src: url('WebFont.eot?#iefix') format('embedded-opentype'),
-     url('WebFont.woff') format('woff'),
-     url('WebFont.ttf') format('truetype'),
-     url('WebFont.svg#webfont') format('svg');
+    src: url('../font/LaneNarrow.eot?#iefix') format('embedded-opentype'),
+    url('../font/LaneNarrow.woff2') format('woff2'), 
+    url('../font/LaneNarrow.woff') format('woff'), 
+    url('../font/LaneNarrow.ttf') format('truetype'), 
+    url('../font/LaneNarrow.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'MyWebFront;
 }
 
 h1{
     font-family: 'MyWebFont', Lane - Narrow, sans-serif;
-    text-align: center;
 }
 
 header{
@@ -35,6 +39,9 @@ p{
     font-family: 'Raleway', sans-serif;
     font-size: 1.125rem;
 
+}
+.project>img{
+    margin: right;
 }
 
 img{
