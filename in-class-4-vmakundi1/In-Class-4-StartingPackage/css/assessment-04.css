@@ -1,0 +1,96 @@
+
+
+/*  ---  Big hint - What is missing from this boilerplate?  ---
+  ---  Better fix it!!!!  ---*/
+
+html {font-size: 100%}
+
+body {
+}
+
+.container{
+	width: 1366px;
+	margin: 0 auto;
+	
+}
+
+header{
+	padding-bottom: 130px;
+	text-align: center;
+	background-image: url(../img/rectangle-1.png);
+	position: sticky;
+	position: -webkit-sticky;
+	top: -1em;
+}
+
+h1, h2, h3
+{
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px;
+	text-align: left;
+}
+
+h1{
+	font-size: 60px;
+	color: #fff;
+
+}
+
+h2{
+	font-style: italic;
+	font-size: 24px;
+	color: #000000;
+
+}
+
+h3{
+	font-style: italic;
+	font-size: 24px;
+	color: #000000;
+
+}
+
+main{
+	width: 700px;
+	height: 1283px;
+}
+
+ul
+{
+	padding-left: 20px;
+	margin: 10px 0;
+	text-align: left;
+	list-style-type: disc;
+	list-style-position: inside;
+	padding: 22px;
+}
+
+p{
+	text-align: left;
+	padding: 20px;
+}
+
+@media screen and (min-width: 1366px) {
+
+	.container
+	{
+		width: 75rem; /*1200px*/
+		margin: 0 auto;
+	}
+}
+
+footer{
+	background-image: url(../img/footer.png);
+	background-repeat: repeat-y;
+	position: sticky;
+	position: -webkit-sticky;
+	bottom: 0;
+}
+
+footer h3{}
+
+a:link { color: #FF0000; }/* unvisited link */
+a:visited { color: #00FF00; }/* visited link */
+a:hover { color: #FF00FF; }/* mouse over link */
+a:active { color: #0000FF;  }/* selected link */
