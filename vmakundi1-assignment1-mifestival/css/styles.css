@@ -1,11 +1,12 @@
 .container {
-    width: 1300px;
+    width: 1500px;
     margin: 0 auto; 
 }
 
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+header{
+    font-family: "Bitter", sans-serif;
 }
 
 
@@ -18,11 +19,30 @@ nav ul{
 
 }
 
+
+.nav-head li a{
+    text-decoration: none;
+    color: #00204a;
+    font-size: 16px;
+}
+
 nav ul button{
-    border: none;
     padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    font-family: "Bitter", sans-serif;
+    font-size: 16px;
+    color: #fff;
     text-transform: uppercase;
-    display: inline-block;
+}
+
+
+.tickets-btn {
+    background: #047590;
+}
+.lineup-btn {
+    background:#e317bf ;    
 }
 
 
@@ -32,16 +52,30 @@ nav ul button{
     height: 603px;
     background-size: cover;
 }
+
 .middle-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1300px;
-    margin: 0 auto;
+    padding: 100px;
 }
 .fun-image{
-    position: relative;
+    position: absolute;
+    top: 230px; right: 570px;
 }
+
+.welcome-text {
+    font-size: 42px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "AbhayaLibre";
+    position: relative;
+    top: 144px;
+    left: 351px;
+    z-index: 1;
+}
+
+
 .friends,
 .fashion,
 .sculpture,
@@ -66,16 +100,30 @@ nav ul button{
     /* display: flex;
     justify-content: space-between;
     align-items: center; */
-    padding: 80px 200px;
+
     background-image: url(../img/main-background.jpg);
 
 }
 
+.lower-section-header{
+    font-family: "AbhayaLibre";
+    text-align: center;
+    padding-top: 77px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.lower-section-header h1{
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
 .customer-choices {
     display: flex;
-}
-.customer-choices div{
-    margin-right: 40px;
+    flex-flow: row wrap;
+    padding: 0 200px;
+    justify-content: space-between;
+
 }
 .deals,
 .guess,
@@ -85,31 +133,77 @@ nav ul button{
 .contact {
     width: 341px;
     height: 520px;
+    margin: 20px 0;
     padding: 60px 43px;
     background-color: white;
 
 }
 
+.customer-choices button3{
+    border: none;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-image: url(../img/footerbackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10px;
+    color: #494c4b;
 
 }
 
-.footers{
-    width: 1300px;
-    margin: 0 auto;
+.footers {
+    padding: 100px;
+    display: flex;
+}
+.footer-copy {
+    background: green;
+}
+.foot-logo {
+    width: 300px;
+}
+.foot-nav {
+    display: flex;
+    flex-direction: column;
+}
+.foot-img {
+    display: flex;
+}
+.foot-content {
+    display: flex;
+}
+.footers li a{
+    text-decoration: none;
+    color: #494c4b;
+    text-transform: capitalize;
 }
 
-.copyright {
-    padding-top:
+.footers li img{
+    vertical-align: right;
+
 }
+ 
+/* second page */
 
-
-
-.pageodd .main{
-    background
+.picture-section {
+    display: flex;
+    padding: 106px;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.picture-section div {
+    background-color: greenyellow;
+    width: 296px;
+    height: 216px;
+    margin: 10px 0;
+}
+.picture-section .sustainability {
+    background: #000;
 }
