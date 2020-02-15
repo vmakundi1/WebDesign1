@@ -53,6 +53,17 @@ nav ul button{
     background-size: cover;
 }
 
+
+.top-main h1{
+    font-size: 70px;
+    font-family: "AbhayaLibre";
+}
+
+.top-main p{
+    font-size: 18px;
+    font-family: "Bitter" sans-serif;
+}
+
 .middle-section{
     display: flex;
     justify-content: space-between;
@@ -70,10 +81,12 @@ nav ul button{
     text-transform: uppercase;
     font-family: "AbhayaLibre";
     position: relative;
+    width: 650px;
     top: 144px;
     left: 351px;
     z-index: 1;
-}
+}   
+
 
 
 .friends,
@@ -125,25 +138,41 @@ nav ul button{
     justify-content: space-between;
 
 }
-.deals,
-.guess,
-.parking,
-.transport,
-.tickets,
-.contact {
+.customer-choices div {
     width: 341px;
     height: 520px;
-    margin: 20px 0;
+    margin: 20px 0px;
     padding: 60px 43px;
     background-color: white;
+    font-family: "AbhayaLibre";
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+.customer-choices h2{
+    font-size: 40px;
+}
+
+.customer-choices button{
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    background:#e317bf ;
+    font-family: "Bitter";
+    width: 169px;
+    height: 53px;
 
 }
 
-.customer-choices button3{
-    border: none;
-    text-decoration: none;
-    font-size: 15px;
 
+
+.customer-choices .guess button{
+    background: #fa0572;
+    
 }
 
 
@@ -164,7 +193,8 @@ footer {
     display: flex;
 }
 .footer-copy {
-    background: green;
+    background: #083e2d;
+    height: 45px;
 }
 .foot-logo {
     width: 300px;
@@ -189,6 +219,12 @@ footer {
     vertical-align: right;
 
 }
+
+.footer-copy {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 15px  100px;
+}
  
 /* second page */
 
@@ -198,12 +234,92 @@ footer {
     justify-content: space-between;
     flex-flow: row wrap;
 }
-.picture-section div {
-    background-color: greenyellow;
+
+.eat-drink,
+.festival-directory,
+.art,
+.music, 
+.camping,
+.sustainability,
+.fashion,
+.dance,
+.open-jam-sessions,
+.performers,
+.after-party,
+.site-map,
+.fitness,
+.vip-exclusives,
+.social,
+.merchandise{
     width: 296px;
     height: 216px;
     margin: 10px 0;
 }
-.picture-section .sustainability {
-    background: #000;
+
+.eat-drink,
+.fashion {
+    background-color: #914800;
+}
+
+.festival-directory {
+    background-color: #ffac5a;
+}
+.camping {
+    background-color: #5067bb;
+}
+.dance,
+.after-party {
+    background-color: #e97300;
+}
+
+.music,
+.performers {
+    background-color: #4199ae;
+}
+.fitness{
+    background-color: #bb8200;
+}
+.vip-exclusives{
+    background-color: #304bae;
+}
+
+.social {
+    background-color: #035e73;
+}
+
+.site-map{
+    background-color: #081b62;
+}
+.picture-section .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Bitter";
+}
+
+.picture-section .content h1{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-style: bold;
+    color: #707a87;
+
+}
+
+.picture-section .content p{
+
+    color: #12161b;
+    font-family: "AbhayaLibre";
+    font-size: 22px;
+    width: 296px;
+    height: 60px;
+
+}
+
+.picture-section .content a{
+    text-decoration: none;
+    font-size: 12px;
+    font-style: bold;
+    text-transform: uppercase;
+    font-family: "Bitter";
+    color: #047590;
 }
