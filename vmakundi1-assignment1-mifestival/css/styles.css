@@ -245,6 +245,21 @@ footer {
 
 .picture-words{
     padding: 200px;
+    text-align: center;
+}
+
+.picture-words h1{
+    font-size: 50px;
+    font-family: "AbhayaLibre";
+    font-style: bold;
+    text-transform: capitalize;
+    color: #12161b;
+}
+
+.picture-words p{
+    text-transform: uppercase;
+    color: #5d5c50;
+
 }
 
 .picture-section {
