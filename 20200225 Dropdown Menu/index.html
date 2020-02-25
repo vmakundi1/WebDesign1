@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo - Dropdown Menus</title>
+    <!-- 1st thing -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- 2nd thing -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- 3rd step -->
+    <header>
+        <!-- 4th step -->
+        <div class="inner-container flex-container">
+            <!-- 5th step -->
+            <img class="logo" src="img/logo.svg" alt="Logo icon">
+            <!-- 6th step -->
+            <h1 class="visually-hidden">Very important heading</h1>
+            <nav>
+                <ul class="menu flex-container">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Tutorial</a>
+                        <!-- 1st tier dropdown -->
+                        <ul class="dropdown">
+                            <li><a href="#">Photoshop</a></li>
+                            <li><a href="#">Illustrator</a></li>
+                            <li><a  class="arrow-icon" href="#">Web design<img src="img/arrow.svg" alt="arrow icon"></a>
+
+                                <!-- 2nd tier dropdown -->
+                                <ul class="dropdown">
+                                    <li><a href="#">HTML</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                </ul> <!-- THIS IS END OF 2ND TIER DROPDOWN -->
+
+                            </li> <!-- THIS IS END OF WEB DESIGN SUB MENU -->
+                        </ul> <!-- THIS IS END OF 1ST TIER DROPDOWN -->
+                    </li> <!-- THIS IS THE END OF TUTORIAL DROPDOWN -->
+                    <li><a href="#">Articles</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">User experience</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+            <a class="btn" href="#">Sign Up</a>
+        </div>
+    </header>
+
+</body>
+
+</html>
