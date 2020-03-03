@@ -1,0 +1,38 @@
+fieldset {
+    width: 750px;
+    border: 2px solid #999;
+}
+
+.contact-form h2, .contact-form label {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.form-hint, .required-notification {
+    font-size: 0.688rem;
+}
+
+.contact-form ul {
+    width: 46.875rem;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+}
+.contact-form li{
+    padding: 0.75rem;
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #35b128;
+    border: 0.2rem solid #33842a;
+    color: #f8f2f2;
+    border-radius: 0.313rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem 0.5rem #999;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: darkred;
+}

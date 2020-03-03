@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Form</title>
+</head>
+<body>
+    <form class="contact-form" action="#" method="post" name="contact-form1">
+        <fieldset>
+            <ul>
+                <li>
+                    <h2>Contact us</h2>
+                    <span class="required-notication">* Denotes Required Field</span>
+                </li>
+                <li>
+                    <label for="name"> Name: </label>
+                    <input type="text" id="name" />
+                </li>
+                <li>
+                    <label for="email"> Email: </label>
+                    <input type="email" id="email" />
+                    <span class="form-hint">Proper format "name@something.com"</span>
+                </li>
+                <li>
+                    <label for="website"> Website: </label>
+                    <input type="website" id="website" />
+                    <span class="form-hint">Proper format
+                        "https://someaddress.com"
+                    </span>
+                </li>
+                <li>
+                    <label for="message">Message:</label>
+                    <textarea id="message" cols="40" rows="6"></textarea>
+                </li>
+                <input>
+                    <input type="submit">Submit Form</input>
+                </li>
+            </ul>
+        </fieldset>
+
+    </form>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</body>
+</html>
