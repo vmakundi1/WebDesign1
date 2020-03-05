@@ -126,7 +126,8 @@ input[type="submit"]:focus{
 }
 
 
-
+/* input:focus + .form-hint{display: inline;}
+input:required:valid + .form-  */
 
 
 
