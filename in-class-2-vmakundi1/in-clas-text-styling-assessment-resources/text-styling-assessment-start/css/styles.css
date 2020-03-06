@@ -1,0 +1,73 @@
+body {
+    font-size: 1.125rem;
+}
+@font-face{
+    font-family: 'LaneNarrow';
+    src: url('WebFont.eot');
+    src: url('../font/LaneNarrow.eot?#iefix') format('embedded-opentype'),
+    url('../font/LaneNarrow.woff2') format('woff2'), 
+    url('../font/LaneNarrow.woff') format('woff'), 
+    url('../font/LaneNarrow.ttf') format('truetype'), 
+    url('../font/LaneNarrow.svg') format('svg');
+}
+@font-face {
+    font-family: 'MyWebFront;
+}
+
+h1{
+    font-family: 'MyWebFont', Lane - Narrow, sans-serif;
+}
+
+header{
+    margin-top: 6.25rem;
+}
+
+section {
+    margin-top: 6.25rem;
+}
+
+h2::first-letter {
+    font-size: 150%;
+    color: #DB4437;
+  }
+
+h2 {
+    text-transform: uppercase;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+
+}
+.project>img{
+    margin: right;
+}
+
+img{
+    margin-left: 1.6875rem;
+}
+
+body {
+    width: 85.31rem;
+}
+
+.container,
+header,
+h1,
+section,
+footer {
+    width: 75rem;
+}
+
+
+
+a:link {
+    color: blue;
+    text-transform: uppercase;
+  }
+
+a:hover{
+
+    border: 0.0625rem solid;
+    color: #336666;
+}

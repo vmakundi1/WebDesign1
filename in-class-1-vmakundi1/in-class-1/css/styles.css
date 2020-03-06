@@ -1,0 +1,32 @@
+/* 
+body {
+    width: 1000px;
+    display: flex;
+    flex-flow: row wrap;   
+  }
+
+.cats-container{
+    display: flex;
+    width: 1860px; 
+}
+.dogs-container {
+    display: flex;
+    width: 1860px;    
+}
+
+
+
+div {
+    width: 310px;
+    height: 100px;
+    align-self: center;
+    
+} */
+
+.cat-content{
+    display: flex;
+}
+
+body {
+    padding: 2rem;
+}

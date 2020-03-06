@@ -1,0 +1,120 @@
+body {
+    /* 1st thing */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.125rem; /* 18px */
+}
+
+.inner-container {
+    width: 64rem; /* 1024px */
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* https://webaim.org/techniques/css/invisiblecontent/ */
+/* display: none; or visibility: hidden; will both hide the element and the text will be ignored by screen readers. This visibility hidden class will hide the text visually but not from screen readers. This can be used for hiding h1 text when using a logo in place of the h1. */
+.visually-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+/* above inner container and flex and visually hidden to be put as seen above
+then next step is the header */
+header{
+    background-image: linear-gradient(0deg, rgba(68, 51, 122, 1) 0%, rgba(107, 70, 193,1) 100% );
+}
+
+/* lets style our logo */
+header .logo{
+    margin: 0.625rem;
+}
+
+/* then lets style our menu */
+.menu li a,
+.btn {
+    color: #faf5ff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+.menu li{
+    padding: 0 1rem;
+    line-height: 4.375rem; /* which is an equivalent of 70 pixels */
+    position: relative; /* why is this important. so that its relative and not absolute to its position */
+    white-space: nowrap; /* this means the text within your menu does not overlap. remains within the box */
+}
+
+.menu> li:hover{
+    background-color: #805ad5;
+}
+
+/* this code .btn is to fix the button, to style it and make it fit somewhere */
+.btn{
+    margin-left: auto;
+    border: 1px solid #faf5ff;
+    padding: 0.5rem;
+    margin-top: 0.625rem;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: #faf5ff;
+    color: #805ad5;
+}
+
+.dropdown{
+    background-image: linear-gradient(0deg, rgba(68, 51, 122, 1)0%, rgba(107, 70, 193,1)100% );
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.dropdown li{
+    border-bottom: 1px solid rgba(237, 242, 247, 0.4);
+    line-height: 2.8125rem;
+}
+
+.menu li a.arrow-icon{
+    display:flex;
+}
+
+.dropdown ul{
+    top: 0;
+    left: 100%;
+
+}
+
+/* now we do a hover state that when you hover its going to show the menu */
+.menu li:hover>ul{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* now we add a condition that will show an effect when we click on menu items with dropdown(visual effects) */
+.dropdown>li{
+    padding: 0 1rem 0 0.075rem;
+    border-left: 0.25rem solid rgb(107,70,193);
+}
+.dropdown>li:hover{
+    border-left:0.25rem solid #d6bcfa;
+}
+.dropdown {
+    transition: all 0.5s ease;
+}
+
+.menu li:focus-within>ul,
+.menu li>ul:focus{
+    visibility: visible;
+    opacity: 0;
+    display: block;
+}

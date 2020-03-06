@@ -1,0 +1,359 @@
+.container {
+    width: 1500px;
+    margin: 0 auto; 
+}
+
+
+
+header{
+    font-family: "Bitter", sans-serif;
+}
+
+
+nav ul{
+    padding: 60px 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+
+.nav-head li a{
+    text-decoration: none;
+    color: #00204a;
+    font-size: 16px;
+}
+
+nav ul button{
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    font-family: "Bitter", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.tickets-btn {
+    background: #047590;
+}
+.lineup-btn {
+    background:#e317bf ;    
+}
+
+
+.top-main {
+    background-image: url(../img/header-background.jpg);
+    background-repeat: no-repeat;
+    height: 603px;
+    background-size: cover;
+}
+
+
+.top-main h1{
+    font-size: 70px;
+    font-family: "AbhayaLibre";
+}
+
+.top-main p{
+    font-size: 18px;
+    font-family: "Bitter" sans-serif;
+}
+
+.middle-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+.fun-image{
+    position: absolute;
+    top: 230px; right: 570px;
+}
+
+.welcome-text {
+    font-size: 42px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "AbhayaLibre";
+    position: relative;
+    width: 650px;
+    top: 144px;
+    left: 351px;
+    z-index: 1;
+}   
+
+
+
+.friends,
+.fashion,
+.sculpture,
+.music {
+    position: relative;
+}
+.friends .content, 
+.fashion .fashion-content,
+.sculpture .sculpture-content,
+.music .music-content {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+
+.lower-section {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+    background-image: url(../img/main-background.jpg);
+
+}
+
+.lower-section-header{
+    font-family: "AbhayaLibre";
+    text-align: center;
+    padding-top: 77px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.lower-section-header h1{
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+.customer-choices {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 200px;
+    justify-content: space-between;
+
+}
+.customer-choices div {
+    width: 341px;
+    height: 520px;
+    margin: 20px 0px;
+    padding: 60px 43px;
+    background-color: white;
+    font-family: "AbhayaLibre";
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+.customer-choices h2{
+    font-size: 40px;
+}
+
+.customer-choices button{
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    background:#e317bf ;
+    font-family: "Bitter";
+    width: 169px;
+    height: 53px;
+
+}
+
+
+
+.customer-choices .guess button{
+    background: #fa0572;
+    
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/footerbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    color: #494c4b;
+
+}
+
+.footers {
+    padding: 100px;
+    display: flex;
+}
+.footer-copy {
+    background: #083e2d;
+    height: 45px;
+}
+.foot-logo {
+    width: 300px;
+}
+.foot-nav {
+    display: flex;
+    flex-direction: column;
+}
+.foot-img {
+    display: flex;
+}
+.foot-content {
+    display: flex;
+}
+.footers li a{
+    text-decoration: none;
+    color: #494c4b;
+    text-transform: capitalize;
+}
+
+.footers li img{
+    vertical-align: right;
+
+}
+
+.footer-copy {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 15px  100px;
+}
+ 
+/* second page */
+
+/* .page-two-odd {
+    text-align: center;
+} */
+
+.page-two-picture {
+    background-image: url(../img/odd-background.jpg);
+    background-repeat: no-repeat;
+    height: 735px;
+    width: 1100px;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture-words{
+    padding: 200px;
+    text-align: center;
+}
+
+.picture-words h1{
+    font-size: 50px;
+    font-family: "AbhayaLibre";
+    font-style: bold;
+    text-transform: capitalize;
+    color: #12161b;
+}
+
+.picture-words p{
+    text-transform: uppercase;
+    color: #5d5c50;
+
+}
+
+.picture-section {
+    display: flex;
+    padding: 106px;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.eat-drink,
+.festival-directory,
+.art,
+.music, 
+.camping,
+.sustainability,
+.fashion,
+.dance,
+.open-jam-sessions,
+.performers,
+.after-party,
+.site-map,
+.fitness,
+.vip-exclusives,
+.social,
+.merchandise{
+    width: 296px;
+    height: 216px;
+    margin: 10px 0;
+}
+
+.eat-drink,
+.fashion {
+    background-color: #914800;
+}
+
+.festival-directory {
+    background-color: #ffac5a;
+}
+.camping {
+    background-color: #5067bb;
+}
+.dance,
+.after-party {
+    background-color: #e97300;
+}
+
+.music,
+.performers {
+    background-color: #4199ae;
+}
+.fitness{
+    background-color: #bb8200;
+}
+.vip-exclusives{
+    background-color: #304bae;
+}
+
+.social {
+    background-color: #035e73;
+}
+
+.site-map{
+    background-color: #081b62;
+}
+.picture-section .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Bitter";
+}
+
+.picture-section .content h1{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-style: bold;
+    color: #707a87;
+
+}
+
+.picture-section .content p{
+
+    color: #12161b;
+    font-family: "AbhayaLibre";
+    font-size: 22px;
+    width: 296px;
+    height: 60px;
+
+}
+
+.picture-section .content a{
+    text-decoration: none;
+    font-size: 12px;
+    font-style: bold;
+    text-transform: uppercase;
+    font-family: "Bitter";
+    color: #047590;
+}
