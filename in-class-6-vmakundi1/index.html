@@ -23,7 +23,7 @@
   <h1>Rain Coat Painting</h1>
   <div class="container">
     <!-- our name should match our context -->
-    <form class="contact-form clearfix" action="" method="POST" name="contact-form">
+    <form class="contact-form clearfix" action="#" method="POST" name="contact-form">
 
 
       <div>
@@ -35,12 +35,12 @@
         <input type="text" id="last-name" name="last-name" />
       </div>
       <div>
-        <label for="address1">Address 1</label>
-        <input type="text" name="address1" name="address1">
+        <label for="address1">Address</label>
+        <input type="text" name="address1" value="address1" id="address1">
       </div>
       <div>
-        <label for="City">City</label>
-        <select id="select" name="city-select">
+        <label for="city">City</label>
+        <select id="city" name="city">
           <option value="default">Please select city</option>
           <option value="calgary">Calgary</option>
           <option value="lethbridge">Lethbridge</option>
@@ -57,61 +57,63 @@
         <legend>
           Provinces Radio Button Field
         </legend>
+        <div class="flex-container">
         <!-- always consider listing most commonly used first and others follow next -->
         <div>
-          <label for="province">Alberta</label>
+          <label for="AB">Alberta</label>
           <input type="radio" name="province" value="AB" id="AB" checked />
         </div>
 
         <div>
-          <label for="province">Quebec</label>
+          <label for="QC">Quebec</label>
           <input type="radio" name="province" value="QC" id="QC" />
         </div>
 
         <div>
-          <label for="province">Ontario</label>
+          <label for="ON">Ontario</label>
           <input type="radio" name="province" value="ON" id="ON"/>
         </div>
 
         <div>
-          <label for="province">Saskatchewan</label>
+          <label for="SK">Saskatchewan</label>
           <input type="radio" name="province" value="SK" id="SK"/>
         </div>
 
         <div>
-          <label for="province">New Foundland</label>
+          <label for="NL">New Foundland</label>
           <input type="radio" name="province" value="NL" id="NL"/>
         </div>
 
         <div>
-          <label for="province">Nova Scotia</label>
+          <label for="NS">Nova Scotia</label>
           <input type="radio" name="province" value="NS" id="NS"/>
         </div>
 
         <div>
-          <label for="province">PEI</label>
+          <label for="PEI">PEI</label>
           <input type="radio" name="province" value="PEI" id="PEI"/>
         </div>
 
         <div>
-          <label for="province">Northwest Territories</label>
+          <label for="NT">Northwest Territories</label>
           <input type="radio" name="province" value="NT" id="NT"/>
         </div>
 
         <div>
-          <label for="province">Yukon</label>
-          <input type="radio" name="province" value="YT" />
+          <label for="YT">Yukon</label>
+          <input type="radio" name="province" value="YT" id="YT" />
         </div>
 
         <div>
-          <label for="province">British Columbia</label>
-          <input type="radio" name="province" value="BC" />
+          <label for="BC">British Columbia</label>
+          <input type="radio" name="province" value="BC" id="BC" />
         </div>
 
         <div>
-          <label for="province">Manitoba</label>
-          <input type="radio" name="province" value="NB" />
+          <label for="MB">Manitoba</label>
+          <input type="radio" name="province" value="MB" id="MB" />
         </div>
+      </div>
       </fieldset>
       <div>
         <label for="postal-code">Postal Code</label>
@@ -119,7 +121,7 @@
       </div>
       <div>
         <label for="message">Message</label>
-        <textarea id="message" name="message" row="10" cols="60"
+        <textarea id="message" name="message" cols="60"
           placeholder="Please enter your Message Here"></textarea>
       </div>
 
@@ -138,17 +140,17 @@
 
         <div>
           <label for="contact-method">Email</label>
-          <input type="checkbox" name="contact-method" value="email">
+          <input type="checkbox" name="contact-method" value="contact-method" id="contact-method">
         </div>
 
         <div>
-          <label for="contact-method">Phone Text</label>
-          <input type="checkbox" name="contact-method" value="phone-text">
+          <label for="phone-text">Phone Text</label>
+          <input type="checkbox" name="contact-method" value="phone-text" id="phone-text">
         </div>
 
         <div>
-          <label for="contact-method">Phone Call</label>
-          <input type="checkbox" name="contact-method" value="phone-call">
+          <label for="phone-call">Phone Call</label>
+          <input type="checkbox" name="contact-method" value="phone-call" id="phone-call">
         </div>
       </fieldset>
 

@@ -99,23 +99,99 @@ main { display: block; }
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+html{
+    font-family: fantasy, sans-serif;
+}
 
+body{
+ /*    text-align: center; */  /* most forms online align from left to right, if we put center as here it limits that*/
+} 
+.container{
+    margin: 0 auto;
+    width: 60rem;
+    /* we put minimum height, because we have dropdowns, we may have flexibility in terms of space. no exact match but should be a trial & error */
+    min-height: 12.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container{
+   /*  for the radio button list */
+   display: flex;
+   flex-direction: column;
+}
+::placeholder{
+    color: silver;
+}
 
+form{
+    width: 100%; 
+    margin: 0 auto;
+}
 
+form div, fieldset{
+    margin-bottom: 1.5rem; /* this created space between each item on the form, between Bame, address within the form */
+}
 
+label{
+    display: block;
+    padding: 0 1rem;
+}
+input, select{
+    display: block;
+    /* margin: 0 auto; */
+    padding: 0.5rem 0;/*  makes the input space slight bigger */
+    width: 40%;
+}
 
+fieldset{ /* please check what does this do?? */
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
 
+fieldset div{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.5rem;
+   /*  text-align: left; */
+    width: 40%;
+}
 
+input[type=radio], 
+input[type=checkbox]{
+    width: initial;
+    margin-right: 1rem;
+}
 
+textarea{
+    /*now we try to make the text area bigger. resize is usually vertical or horizontal*/
+    resize: vertical;
+    min-width: 24rem; /*note we did not put % as rems is best practice*/
+    max-height: 60rem;
+    min-height: 1rem;
+}
 
+input[type=submit]{
+    width:20rem;
+    padding:0.5rem;
+    background:blue;
+    color:#fff;
+    transition: background 0.5s ease-in-out; /*this is important*/
+    border: 0;
+    border-radius:0.3rem;
+    box-shadow: 0.3rem 0.5rem #999;
+    cursor: pointer;
+}
 
-
-
-
+input[type=submit]:hover,
+input[type=submit]:focus{
+    background: lightblue;
+}
 
 
 
