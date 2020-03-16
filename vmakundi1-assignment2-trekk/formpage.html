@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <img class="logo" src="img/shoelogo.png" alt="logo">
+      <hi class="visually-hidden"></hi>
+      <nav>
+        <ul class="menu flex-container">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">SHOP</a>
+            <ul class="dropdown">
+              <li><a href="#">WOMEN</a>
+                <ul class="clothing-dropdown1">
+                  <li><a href="#">Clothing</a></li>
+                  <li><a href="#">Jackets</a></li>
+                  <li><a href="#">Fleece, hoodes and sweaters</a></li>
+                  <li><a href="#">Shirts and tops</a></li>
+                  <li><a href="#">Pants, shorts and tights</a></li>
+                  <li><a href="#">Skirts and dresses</a></li>
+                  <li><a href="#">Underwear and base layers</a></li>
+                </ul>
+                <ul class="clothing-dropdown2">
+                  <li><a href="#">Footwear</a></li>
+                  <li><a href="#">Boots</a></li>
+                  <li><a href="#">Shoes</a></li>
+                  <li><a href="#">Sandals</a></li>
+                  <li><a href="#">Socks</a></li>
+                </ul>
+                <ul class="clothing-dropdown3">
+                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">Sunglasses</a></li>
+                  <li><a href="#">Watches</a></li>
+                  <li><a href="#">Hats</a></li>
+                  <li><a href="#">Gloves</a></li>
+                </ul>
+                <ul class="clothing-dropdown4">
+                  <li><a href="#">Swimwear</a></li>
+                  <li><a href="#">Pool and suits</a></li>
+                  <li><a href="#">Bikinis</a></li>
+                  <li><a href="#">Wetsuits</a></li>
+                  <li><a href="#">Rashguards and sunguards</a></li>
+                </ul>
+                <ul class="clothing-dropdown5">
+                  <li><a href="#">Shop all women's</a></li>
+                  <li><a href="#">New arrivals</a></li>
+                  <li><a href="#">Clearance</a></li>
+              </li>
+              <li><a href="#">MEN</a></li>
+              <li><a href="#">KIDS</a></li>
+              <li><a href="#">HIKE & CAMP</a></li>
+              <li><a href="#">WATER</a></li>
+              <li><a href="#">PACKS & TRAVEL</a></li>
+            </ul>
+          </li>
+        </ul>
+        <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="form-section1 flex-container">
+          <div>
+            <label for="men">CHECKOUT</label>
+            <input type="checkbox" name="men" value="men" id="men">
+          </div>
+
+        <div>
+          <input type="submit" value="SEE ALL PRODUCTS" name="submit" />
+        </div></section>
+<div class="form-container">
+    <section class="form-section2">
+      <form>
+        <h1>Returning customer? login here.</h1>
+        <p>If you have shopped with us before please enter your details in the boxes below.</p>
+        <p>If you are a new customer please proceed to the Billing & Shipping section</p>
+        <div>
+          <label for="username"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="username">
+
+          <label for="password"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password">
+        </div>
+        <div>
+          <button type="submit" class="loginbtn">LOGIN</button>
+        </div>
+      </form>
+
+    </section>
+
+    <section class="form-section3">
+      <form>
+        <h1>Have a coupon? Enter your code here.</h1>
+        <div>
+          <label for="coupon"><b>Your Coupon Code</b></label>
+          <input type="text" placeholder="" name="coupon">
+        </div>
+        <div>
+          <button type="submit" class="applybtn">APPLY</button>
+        </div>
+      </form>
+
+    </section>
+
+    <section class="form-section4">
+      <form>
+        <div class="billing-page1">
+          <h1>Billing Address:</h1>
+
+          <div class="billingpage1-address">
+            <label for="firstname"><b>First name</b></label>
+            <input type="firstname" placeholder="" name="firstname" id="firstname"></div>
+
+          <div class="billingpage1-address">
+            <label for="lastname"><b>Last name</b></label>
+            <input type="lastname" placeholder="" name="lastname" id="lastname"></div>
+
+          <div class="billingpage1-address">
+            <label for="address"><b>Address</b></label>
+            <input type="address" placeholder="" name="address" id="address"></div>
+
+          <div class="billingpage1-address">
+            <label for="city"><b>City/Town</b></label>
+            <input type="city" placeholder="" name="city" id="city"></div>
+
+          <div class="billingpage1-address">
+            <label for="province"><b>Province/State</b></label>
+            <input type="province" placeholder="" name="province" id="province"></div>
+
+          <div class="billingpage1-address">
+            <label for="postalcode"><b>Postal Code/ZIP</b></label>
+            <input type="postalcode" placeholder="" name="postalcode" id="postalcode"></div>
+
+          <div class="billingpage1-address">
+            <label for="phonenumber"><b>Phone Number</b></label>
+            <input type="phonenumber" placeholder="" name="phonenumber" id="phonenumber"></div>
+        </div>
+
+        <div class="billing-page1">
+                <h1>Shipping Address (if different from billing address):</h1>
+      
+                <div class="billingpage1-address">
+                  <label for="firstname"><b>First name</b></label>
+                  <input type="firstname" placeholder="" name="firstname" id="firstname"></div>
+      
+                <div class="billingpage1-address">
+                  <label for="lastname"><b>Last name</b></label>
+                  <input type="lastname" placeholder="" name="lastname" id="lastname"></div>
+      
+                <div class="billingpage1-address">
+                  <label for="address"><b>Address</b></label>
+                  <input type="address" placeholder="" name="address" id="address"></div>
+      
+                <div class="billingpage1-address">
+                  <label for="city"><b>City/Town</b></label>
+                  <input type="city" placeholder="" name="city" id="city"></div>
+      
+                <div class="billingpage1-address">
+                  <label for="province"><b>Province/State</b></label>
+                  <input type="province" placeholder="" name="province" id="province"></div>
+      
+                <div class="billingpage1-address">
+                  <label for="postalcode"><b>Postal Code/ZIP</b></label>
+                  <input type="postalcode" placeholder="" name="postalcode" id="postalcode"></div>
+      
+                <div class="billingpage1-address">
+                  <label for="phonenumber"><b>Phone Number</b></label>
+                  <input type="phonenumber" placeholder="" name="phonenumber" id="phonenumber"></div>
+              </div>
+              <div class="billingpage1-address">
+                    <label for="create-account">Create an account</label>
+                    <input type="checkbox" name="create-account" value="create-account" id="create-account">
+                  </div>
+      </form>
+
+    </section>
+
+    <section class="form-section5">
+
+    </section>
+
+    <section class="form-section6">
+
+    </section>
+</div>
+    <footer>
+      <div class="footer-section1">
+        <h2>TREKKING</h2>
+        <P>LOREM IPSUM ST MET COMPRESS ADRON ELIT AJJRONA TUK UNMATCH ICNKES HWLLOF COMMODELES TIKAKA THAJAJA KWAHH
+          KUWAMAMAMA NHJJDKKW LALOW</P>
+      </div>
+      <div class="footer-section2">
+        <ul class="foot-nav">
+          <li><a href="#">CREDITS</a></li>
+          <li><a href="#">PRIVACY</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="footer-section3">
+        <p>Design by gianluca cosetta</p>
+      </div>
+
+    </footer>
+  </main>
+</body>
+
+</html>
