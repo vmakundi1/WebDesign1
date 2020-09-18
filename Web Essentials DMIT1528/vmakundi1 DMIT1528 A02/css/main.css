@@ -261,3 +261,160 @@ textarea {
   }
 }
 
+/*My code starts from here */
+body{
+  max-width: 1080px;
+  margin: 0 auto;
+  float: none;
+  font-family: 'Fira Sans', sans-serif;
+  /* background-image: url(../img/cliff-4504862_960_720.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-size: 80%; */
+}
+.container {
+  width: 100%;
+  margin: 0 auto; 
+}
+header{
+  font-family: "Bitter", sans-serif;
+}
+.simple-menu{
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(161, 156, 156);
+  top: 0;
+  width: 1080px;
+} 
+.simple-menu a{
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.simple-menu {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.simple-menu * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.simple-menu li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+}
+.simple-menu a {
+  padding: 0.3em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+.simple-menu a:before,
+.simple-menu a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.simple-menu a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #272421;
+}
+.simple-menu a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: white;
+  white-space: nowrap;
+}
+.simple-menu li:hover a,
+.simple-menu .hovering a {
+  transform: translateY(100%);
+}
+/* Demo purposes only */
+body {
+  background-color: #fff;
+}
+.simple-menu li a:hover
+.simple-menu .hovering a{
+  background-color: #adbbb0;
+  transform: translateY(100%);
+}
+.welcome-face {
+  /* <!--Background image
+  Image by <a href="https://pixabay.com/users/Foto-Rabe-715168/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=653639">Foto-Rabe</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;
+  utm_medium=referral&amp;utm_campaign=image&amp;utm_content=653639">Pixabay</a>--> */
+  background-image: url(../img/snake-653639_1920.jpg);
+  background-repeat: no-repeat;
+  height: 603px;
+  background-size: cover;
+}
+.welcome-note{
+  font-size: 50px;
+  font-style: bold;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "AbhayaLibre";
+  position: relative;
+  width: 650px;
+  top: 144px;
+  left: 351px;
+  z-index: 1;
+}
+
+.welcome-note h1{
+  font-size: 70px;
+  font-family: "AbhayaLibre";
+}
+
+.welcome-note p{
+  font-size: 18px;
+  font-family: "Bitter" sans-serif;
+}
+/* .main-content{
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+} */
+/* .intro-green-mamba,
+.intro-black-mamba,
+.climate-change {
+  align-content: center;
+} */
+
+.main-footer{
+  position: sticky;
+  height: 200px;
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #444d55;
+  color: #fff;
+}
+.copyright{
+  font-family:'Fira Sans', sans-serif;
+  font-size: 20px;
+
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+
+}
