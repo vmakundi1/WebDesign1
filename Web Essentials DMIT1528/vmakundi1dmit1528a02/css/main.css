@@ -285,7 +285,7 @@ header{
   justify-content: space-between;
   background-color: rgb(161, 156, 156);
   top: 0;
-  width: 1080px;
+  /* width: 1080px; */
 } 
 .simple-menu a{
   color: #f2f2f2;
@@ -397,16 +397,13 @@ body {
 .climate-change {
   align-content: center;
 } */
-
+img {
+  width: 100%;
+}
 .main-footer{
-  position: sticky;
-  height: 200px;
-  width: 1080px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: #444d55;
-  color: #fff;
+
 }
 .copyright{
   font-family:'Fira Sans', sans-serif;
@@ -416,5 +413,9 @@ body {
 .social-media{
   display: flex;
   justify-content: center;
-
+}
+.social-media a{
+  font-size: 2rem;
+  text-decoration: none;
+  color:#4b4d4b;
 }
